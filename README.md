@@ -1,6 +1,6 @@
 # Privacy Policy for Clini Sync
 
-**Effective Date:** [22-03-2026]
+**Effective Date:** 22-03-2026
 
 ## 1. Introduction
 Welcome to Clini Sync. Clini Sync is a clinical management application designed to help healthcare professionals and clinic administrators manage their daily operations, staff, patients, and medical records. 
@@ -63,7 +63,7 @@ We may update our Privacy Policy from time to time. We will notify you of any ch
 
 ## 9. Contact Us
 If you have any questions or concerns about this Privacy Policy or our data practices, please contact us at:
-*   **Email:** [encrustace@gmail.com]
-*   **Address:** [Encrust Ace]
+*   **Email:** encrustace@gmail.com
+*   **Address:** Encrust Ace
 
 ---
