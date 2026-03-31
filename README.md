@@ -2,8 +2,6 @@
 
 Clini Sync is a clinic management application for doctors, clinic administrators, and healthcare teams to manage patients, appointments, consultations, prescriptions, lab workflows, billing, subscriptions, and staff access from one secure platform.
 
-This README includes the public privacy policy section that can be used for your Play Store privacy policy URL.
-
 ## App Overview
 
 Clini Sync is designed to modernize day-to-day clinic operations for solo practitioners and multi-doctor clinics. It centralizes patient records, appointment scheduling, consultations, digital prescriptions, lab report workflows, invoicing, medicine and lab inventories, analytics, and clinic administration so healthcare teams can spend less time on paperwork and more time on patient care.
