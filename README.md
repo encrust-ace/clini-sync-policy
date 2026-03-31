@@ -1,69 +1,155 @@
-# Privacy Policy for Clini Sync
+# Clini Sync
+
+Clini Sync is a clinic management application for doctors and healthcare professionals to manage patients, appointments, consultations, prescriptions, billing, reports, and staff access from one secure platform.
+
+This README now includes the public privacy policy section that can be used for your Play Store privacy policy URL.
+
+## App Overview
+
+Clini Sync is designed to modernize day-to-day clinic operations for solo practitioners and multi-doctor clinics. It centralizes patient records, appointment scheduling, digital prescriptions, invoicing, inventory, and analytics so healthcare teams can spend less time on paperwork and more time on patient care.
+
+## Key Features
+
+### Patient Management
+
+- Register patients and maintain demographic records.
+- Access consultation history, allergies, and contact details quickly.
+- Upload and view digital lab reports from the patient profile.
+
+### Appointment Scheduling
+
+- Book, update, and track appointments.
+- Convert scheduled visits into consultations when patients arrive.
+
+### Consultations and Prescriptions
+
+- Record clinical observations and medical advice.
+- Create digital prescriptions using integrated medicine inventory.
+- Set dosage, timing, and duration clearly.
+
+### Billing and Reporting
+
+- Generate invoices for consultations and medicines.
+- Apply discounts and track payment status.
+- Create professional PDF medical reports and invoices.
+
+### Analytics and Inventory
+
+- Monitor clinic trends and revenue through dashboards.
+- Track medicine stock, pricing, and prescription-based deductions.
+
+### Staff and Access Control
+
+- Authorize doctors and staff using Google Authentication.
+- Assign role-based access for Admin, Doctor, and Staff users.
+
+## Security and Privacy
+
+Clini Sync uses role-based access controls, secure authentication, and encrypted data handling to protect clinic and patient data. Access is limited to authorized clinic users, and data is scoped to the relevant clinic environment.
+
+## Platform Notes
+
+- Supports clinic customization including clinic identity details.
+- Designed for synced access across authorized devices.
+- Built for practical workflows around records, reports, and financial tracking.
+
+## Privacy Policy
 
 **Effective Date:** 22-03-2026
 
-## 1. Introduction
-Welcome to Clini Sync. Clini Sync is a clinical management application designed to help healthcare professionals and clinic administrators manage their daily operations, staff, patients, and medical records. 
+### 1. Introduction
 
-This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application and services. 
+Welcome to Clini Sync. Clini Sync is a clinical management application designed to help healthcare professionals and clinic administrators manage daily operations, staff, patients, and medical records.
 
-**Note regarding Roles:** In the context of data protection laws, the Clinic/Doctor is the **"Data Controller"** (deciding why and how patient data is processed), and Clini Sync acts as the **"Data Processor"** (providing the software tools to store and manage that data securely).
+This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application and services.
 
-## 2. Information We Collect
-We collect information that you directly provide to us when you use the app.
+In the context of data protection laws, the Clinic or Doctor is the Data Controller, meaning they decide why and how patient data is processed. Clini Sync acts as the Data Processor, meaning it provides the software tools used to store and manage that data securely.
 
-*   **Staff and Doctor Information:** When you authorize staff or doctors, we collect names, email addresses (via Google Authentication), roles, and specializations.
-*   **Clinic Information:** Clinic name, address, phone number, country, and logo.
-*   **Patient Health Information (PHI):** Information entered by healthcare professionals regarding patients, which includes but is not limited to:
-    *   Patient demographics (Name, Age, Gender, Phone number)
-    *   Medical Consultations (Symptoms, Diagnoses, Prescriptions)
-    *   Lab Reports and uploaded medical files
-    *   Appointment schedules and history
-    *   Billing and payment information
+### 2. Information We Collect
 
-## 3. How We Use Your Information
-We use the collected data strictly to provide, maintain, and improve the Clini Sync application:
-*   To facilitate clinic management, appointment scheduling, and medical record keeping.
-*   To authenticate users and secure access to the app (e.g., restricting access via Google Sign-In and role-based permissions).
-*   To generate bills, track inventory (medicines), and manage clinic analytics.
-*   To send administrative information, system notifications, or maintenance alerts.
+We collect information that is provided directly through the app.
 
-**We do not sell, rent, or trade your personal or patient data to any third parties for marketing or advertising purposes.**
+**Staff and Doctor Information**
 
-## 4. Third-Party Services
-To operate our application, we utilize secure third-party service providers who may process data on our behalf. These include:
-*   **Supabase:** We use Supabase for our backend database, secure data storage, and file hosting (e.g., clinic logos, lab reports).
-*   **Google Cloud / Google Authentication:** We use Google for secure Single Sign-On (SSO) authentication.
+- Names
+- Email addresses provided through Google Authentication
+- Roles
+- Specializations
 
-These third parties are bound by their own strict data privacy and security policies.
+**Clinic Information**
 
-## 5. Data Security
-We implement commercially reasonable security measures to protect the data stored within Clini Sync:
-*   **Row Level Security (RLS):** Our database is configured so that clinic staff can only access data belonging to their specific clinic.
-*   **Encryption:** Data is encrypted in transit and at rest using industry-standard protocols.
-*   **Role-Based Access:** Administrative controls allow clinic owners to restrict staff access to specific functions.
+- Clinic name
+- Address
+- Phone number
+- Country
+- Clinic logo
 
-While we strive to use commercially acceptable means to protect your personal information, no method of transmission over the internet or electronic storage is 100% secure.
+**Patient Health Information**
 
-## 6. Data Retention and Deletion
-We retain data for as long as your clinic maintains an active account with Clini Sync. 
-*   **Account Deletion:** Clinic administrators (Admins) have the ability to permanently delete their entire clinic profile directly from the app. Initiating this action immediately and irreversibly deletes all associated users, patients, appointments, consultations, lab reports, and billing data from our servers.
-*   **Staff Management:** Admins can disable or delete individual staff accounts at any time.
+- Patient demographics such as name, age, gender, and phone number
+- Consultation information including symptoms, diagnoses, and prescriptions
+- Lab reports and uploaded medical files
+- Appointment schedules and appointment history
+- Invoicing and payment information
 
-## 7. Your Privacy Rights
-Depending on your jurisdiction, you or your patients may have the right to:
-*   Request access to the personal data we hold.
-*   Request corrections to inaccurate data.
-*   Request the deletion of personal data.
+### 3. How We Use Your Information
 
-Patients seeking to exercise these rights should contact the Clinic/Doctor directly, as the Clinic is the Data Controller responsible for the medical records.
+We use collected information only to provide, maintain, and improve Clini Sync.
 
-## 8. Changes to This Privacy Policy
-We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Effective Date" at the top. We will also utilize the app's internal notification system to alert you to significant changes.
+- To support clinic management, appointment scheduling, and medical record keeping
+- To authenticate users and secure app access through Google Sign-In and role-based permissions
+- To generate invoices, manage medicines, and power clinic analytics
+- To send administrative information, maintenance alerts, and system notifications
 
-## 9. Contact Us
-If you have any questions or concerns about this Privacy Policy or our data practices, please contact us at:
-*   **Email:** encrustace@gmail.com
-*   **Address:** Encrust Ace
+We do not sell, rent, or trade personal data or patient data to third parties for marketing or advertising purposes.
 
----
+### 4. Third-Party Services
+
+To operate the application, Clini Sync uses secure third-party service providers that may process data on our behalf.
+
+- **Supabase:** backend database, secure data storage, and file hosting such as clinic logos and lab reports
+- **Google Authentication:** secure single sign-on authentication for authorized users
+
+These providers operate under their own privacy and security policies.
+
+### 5. Data Security
+
+We implement commercially reasonable safeguards to protect data stored within Clini Sync.
+
+- **Row Level Security:** clinic users can only access data for their clinic
+- **Encryption:** data is encrypted in transit and at rest using industry-standard protocols
+- **Role-Based Access:** clinic administrators can limit staff access based on responsibilities
+
+No method of transmission over the internet or method of electronic storage is completely secure, but we work to protect data using practical and industry-standard measures.
+
+### 6. Data Retention and Deletion
+
+We retain data for as long as the clinic maintains an active account with Clini Sync.
+
+- **Account Deletion:** clinic administrators can permanently delete the clinic profile from the app; this action irreversibly deletes associated users, patients, appointments, consultations, lab reports, and invoicing data from our servers
+- **Staff Management:** administrators can disable or delete staff accounts at any time
+
+### 7. Your Privacy Rights
+
+Depending on the applicable jurisdiction, users or patients may have the right to:
+
+- Request access to personal data
+- Request correction of inaccurate data
+- Request deletion of personal data
+
+Patients seeking to exercise these rights should contact the relevant Clinic or Doctor directly, because the Clinic is the Data Controller responsible for those medical records.
+
+### 8. Changes to This Privacy Policy
+
+We may update this Privacy Policy from time to time. When changes are made, the updated version will be posted here and the Effective Date will be revised. Significant changes may also be communicated through in-app notifications.
+
+### 9. Contact Us
+
+If you have questions or concerns about this Privacy Policy or Clini Sync data practices, contact:
+
+- **Email:** encrustace@gmail.com
+- **Address:** Encrust Ace
+
+## Store Listing Keywords
+
+Clinic management, doctor app, electronic medical records, EMR, patient management, digital prescription, appointment scheduler, medical billing, clinic software, healthcare app, medical inventory, PDF invoice, lab reports.
