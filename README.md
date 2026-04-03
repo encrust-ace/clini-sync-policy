@@ -1,197 +1,255 @@
 # Clini Sync
 
-Clini Sync is a clinic management application for doctors, clinic administrators, and healthcare teams to manage patients, appointments, consultations, prescriptions, lab workflows, billing, subscriptions, and staff access from one secure platform.
+Clini Sync is a clinic operations platform for doctors, administrators, and healthcare teams. It centralizes patients, appointments, consultations, prescriptions, lab workflows, invoicing, inventories, staff access, subscriptions, and clinic settings in one application across Android, Web, and Windows.
 
-## App Overview
+This README also includes a public privacy policy section that can be used for a website or store listing.
 
-Clini Sync is designed to modernize day-to-day clinic operations for solo practitioners and multi-doctor clinics. It centralizes patient records, appointment scheduling, consultations, digital prescriptions, lab report workflows, invoicing, medicine and lab inventories, analytics, and clinic administration so healthcare teams can spend less time on paperwork and more time on patient care.
+## Overview
 
-## Key Features
+Clini Sync is designed for practical clinic work. It reduces paperwork by keeping day-to-day clinical, billing, and operational workflows in one place.
+
+The product currently supports:
+
+- Patient registration and history tracking
+- Appointment scheduling and follow-up workflows
+- Consultation notes and digital prescriptions
+- Lab test catalog management and lab report generation
+- Automatic invoicing during consultation and lab workflows
+- Medicine and lab inventory management
+- Staff authorization with role-based access
+- Clinic profile, logo, and report theme settings
+- Subscription management and usage tracking
+- Analytics for operational and financial visibility
+- Google sign-in and email/password authentication
+- Password reset for email/password users
+
+## Core Features
 
 ### Patient Management
 
-- Register patients and maintain demographic records.
-- Store contact details, addresses, allergies, and patient history.
-- Access consultations, invoices, and uploaded reports from the patient profile.
+- Register and manage patient demographic records
+- Store phone, email, age, gender, and allergy information where entered
+- Keep consultation, invoice, and report history linked to the patient
+- Search patients quickly across clinic workflows
 
-### Appointment Scheduling
+### Appointments
 
-- Book, update, and track appointments with doctor assignment.
-- Convert scheduled visits into consultations when patients arrive.
+- Schedule appointments with date, time, and visit reason
+- Link appointments to existing or newly created patients
+- Track consultation and lab-oriented bookings
 
 ### Consultations and Prescriptions
 
-- Record clinical observations and medical advice.
-- Create digital prescriptions using integrated medicine inventory.
-- Set dosage, timing, frequency, and duration clearly.
-- Keep searchable consultation history for ongoing care.
+- Record clinical observations and advice
+- Build prescriptions from clinic medicine inventory
+- Capture dosage schedule, duration, and quantity clearly
+- Generate invoices automatically from consultation flow when required
 
-### Lab Reports and Lab Tests
+### Lab Workflow
 
-- Upload digital lab reports to patient records.
-- Manage available lab tests and pricing inside the clinic workflow.
-- Include lab-related documents in the patient's longitudinal record.
+- Maintain a clinic lab-test catalog
+- Import tests from a master list
+- Create lab reports for patients
+- Track test results and generate invoice-linked lab output
 
-### Billing and Reporting
+### Billing and Documents
 
-- Generate invoices for consultations and medicines.
-- Apply discounts and track payment status.
-- Create professional PDF medical reports, lab reports, and invoices.
+- Generate invoices for consultations, medicines, and lab services
+- Track payment state and apply discounts
+- Produce branded invoices, consultation documents, and lab reports
+- Customize report and invoice appearance with clinic theme settings
 
-### Subscriptions and Payments
+### Inventory and Operations
 
-- Track plan usage and record limits.
-- Upgrade or manage subscription plans from within the app.
-- Process subscription payments through Razorpay.
-
-### Analytics and Inventory
-
-- Monitor revenue, appointment trends, diagnosis trends, and payment breakdowns.
-- Track medicine stock, pricing, and prescription-based deductions.
-- Maintain both medicine inventory and lab test catalog data.
+- Manage medicine stock, pricing, and prescription-linked usage
+- Manage lab inventory, pricing, and availability
+- Use search and paginated selectors across high-volume lists
 
 ### Staff and Access Control
 
-- Authorize doctors and staff using Google Authentication.
-- Assign role-based access for Admin, Doctor, and Staff users.
-- Manage staff profiles, specializations, and doctor consultation fees.
+- Authorize staff and doctors by email from the clinic admin panel
+- Assign roles such as Admin, Doctor, and Staff
+- Configure doctor specialization and consultation fee settings
+- Enforce clinic-level access restrictions for disabled users or clinics
 
-### Clinic Branding and Document Customization
+### Authentication
 
-- Upload and crop clinic logos for branded documents.
-- Customize clinic identity details such as address, phone, country, and currency.
-- Choose themed report and invoice styles and control whether logos appear on printed documents.
+- Sign in with Google
+- Sign in with email and password
+- Set up a new clinic through either Google auth or email/password auth
+- Recover forgotten passwords through the in-app reset flow
+- Restrict access to users already authorized by the clinic
 
-### Platform Support
+### Clinic Settings
 
-- Available across Android, Web, and Windows.
-- Supports platform-appropriate PDF sharing, downloading, and file handling.
+- Update clinic name, address, phone, and country
+- Upload and crop clinic logo
+- Control whether the clinic logo appears on reports and invoices
+- Change app theme mode and report or invoice theme
+- Manage subscription state and staff access from the More tab
 
-## Security and Privacy
+### Analytics and Subscription
 
-Clini Sync uses role-based access controls, secure authentication, clinic-scoped data access, and encrypted data handling to protect clinic and patient data. Access is limited to authorized clinic users, and data is scoped to the relevant clinic environment through backend policies.
+- View clinic revenue and operational summaries
+- Review billing and workload trends
+- Track subscription status, plan, and limits
+- Open subscription management for upgrades or plan changes
 
-## Platform Notes
+## Platform Support
 
-- Supports clinic customization including clinic identity details, branding, and document themes.
-- Designed for synced access across authorized devices.
-- Built for practical workflows around records, reports, subscriptions, and financial tracking.
+- Android
+- Web
+- Windows
+
+Platform notes:
+
+- Windows includes native protocol registration and deep-link handling for Supabase auth callbacks
+- PDF export and document delivery behavior adapts by platform
+- Web and desktop use the same clinic data model and auth system
+
+## Authentication Summary
+
+Clini Sync supports two authentication methods:
+
+1. Google sign-in
+2. Email and password
+
+Authentication alone does not grant clinic access. Users must also be authorized within the clinic's access model.
+
+Current behavior:
+
+- Existing authorized users can sign in with Google or email/password
+- New clinics can be created after authentication and setup completion
+- Password reset is supported for email/password users
+- Users who are not authorized for a clinic cannot access clinic data even if authentication succeeds
+
+## Technology Stack
+
+- Flutter
+- Supabase
+- Provider
+- Shared Preferences
+- Razorpay for subscription payment flow
 
 ## Privacy Policy
 
-**Effective Date:** 31-03-2026
+**Effective Date:** 03-04-2026
 
 ### 1. Introduction
 
-Welcome to Clini Sync. Clini Sync is a clinical management application designed to help healthcare professionals and clinic administrators manage daily operations, staff, patients, and medical records.
+Clini Sync is a clinic management and healthcare operations application used by clinics, doctors, and authorized staff.
 
-This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application and services.
+This Privacy Policy explains what data is collected through the app, how it is used, and how it is protected.
 
-In the context of data protection laws, the Clinic or Doctor is the Data Controller, meaning they decide why and how patient data is processed. Clini Sync acts as the Data Processor, meaning it provides the software tools used to store and manage that data securely.
+For patient and clinic records, the Clinic or Doctor using Clini Sync is the Data Controller. Clini Sync acts as the Data Processor by providing the software and infrastructure used to manage that information.
 
 ### 2. Information We Collect
 
-We collect information that is provided directly through the app.
+We collect information that is entered into or generated through the app.
 
-**Staff and Doctor Information**
-
-- Names
-- Email addresses provided through Google Authentication
-- Roles
-- Specializations
-- Consultation fee settings where configured
-
-**Clinic Information**
+**Clinic and Staff Information**
 
 - Clinic name
-- Address
-- Phone number
-- Country
-- Currency preferences
+- Clinic address
+- Clinic phone number
+- Country and clinic configuration data
 - Clinic logo
 - Report and invoice theme preferences
+- Staff and doctor names
+- Staff and doctor email addresses
+- Staff and doctor roles
+- Doctor specialization and consultation fee settings where applicable
 
-**Patient Health Information**
+**Patient and Clinical Information**
 
-- Patient demographics such as name, age, gender, and phone number
-- Additional patient details such as email, address, and allergy information where entered
-- Consultation information including symptoms, diagnoses, and prescriptions
-- Lab reports and uploaded medical files
+- Patient name
+- Age
+- Gender
+- Phone number
+- Email address where entered
+- Allergy information where entered
 - Appointment schedules and appointment history
-- Invoicing and payment information
+- Consultation observations, prescriptions, and advice
+- Lab tests, lab results, and lab reports
+- Invoice and billing records tied to patient care workflows
+
+**Authentication and Access Information**
+
+- Google authentication data where Google sign-in is used
+- Email/password authentication data managed by Supabase Auth where email login is used
+- Password recovery and verification workflow state related to authentication
 
 **Subscription and Payment Information**
 
-- Subscription plan and usage data
-- Payment-related information needed to process subscription transactions through our payment provider
+- Subscription plan and usage information
+- Payment-related metadata required to process subscription upgrades through the configured payment provider
 
-**Administrative Messaging Data**
+**Support and Diagnostic Information**
 
-- In-app system notification content shown to clinic users for operational or maintenance purposes
+- Support ticket information submitted from the app
+- Diagnostic information included by the app to help investigate support issues, such as app version, clinic identifier, platform details, and related metadata
 
-### 3. How We Use Your Information
+### 3. How We Use Information
 
-We use collected information only to provide, maintain, and improve Clini Sync.
+We use the collected information only to operate, secure, support, and improve Clini Sync.
 
-- To support clinic management, appointment scheduling, and medical record keeping
-- To authenticate users and secure app access through Google Sign-In and role-based permissions
-- To generate invoices, reports, and other clinic documents
-- To manage medicine inventory, lab workflows, and clinic analytics
-- To manage subscriptions, enforce plan limits, and process subscription payments
-- To send administrative information, maintenance alerts, and system notifications
+- To authenticate users and manage secure access
+- To authorize clinic staff access based on clinic-controlled permissions
+- To manage patient, appointment, consultation, lab, and invoice workflows
+- To generate clinic documents and branded outputs
+- To operate subscription and payment flows
+- To provide support, maintenance, and issue resolution
+- To improve app reliability, compatibility, and operational quality
 
-We do not sell, rent, or trade personal data or patient data to third parties for marketing or advertising purposes.
+We do not sell personal data or patient data.
 
 ### 4. Third-Party Services
 
-To operate the application, Clini Sync uses secure third-party service providers that may process data on our behalf.
+Clini Sync uses the following third-party services to operate the product:
 
-- **Supabase:** backend database, secure data storage, authentication infrastructure, and file hosting such as clinic logos and lab reports
-- **Google Authentication:** secure single sign-on authentication for authorized users
-- **Razorpay:** payment processing for subscription purchases and related plan upgrades
+- **Supabase:** authentication, database, storage, and backend services
+- **Google Authentication:** OAuth sign-in where the Google option is used
+- **Razorpay:** subscription-related payment processing
 
-These providers operate under their own privacy and security policies.
+These services operate under their own privacy and security policies.
 
 ### 5. Data Security
 
-We implement commercially reasonable safeguards to protect data stored within Clini Sync.
+We use practical and industry-standard safeguards to protect data handled through Clini Sync.
 
-- **Row Level Security:** clinic users can only access data for their clinic
-- **Encryption:** data is encrypted in transit and at rest using industry-standard protocols
-- **Role-Based Access:** clinic administrators can limit staff access based on responsibilities
-- **Clinic-Scoped File Storage:** uploaded clinic assets and patient files are stored within scoped backend storage paths
+- Clinic-scoped access controls
+- Role-based access restrictions
+- Secure backend authentication through Supabase Auth
+- Protected backend storage and database access rules
+- Encrypted data transmission using HTTPS and provider-managed security controls
 
-No method of transmission over the internet or method of electronic storage is completely secure, but we work to protect data using practical and industry-standard measures.
+No internet-based system can guarantee absolute security, but Clini Sync is designed to reduce unauthorized access and limit cross-clinic data exposure.
 
 ### 6. Data Retention and Deletion
 
-We retain data for as long as the clinic maintains an active account with Clini Sync.
+Data is retained for as long as the clinic continues using the service, unless it is deleted through available administrative controls.
 
-- **Account Deletion:** clinic administrators can permanently delete the clinic profile from the app; this action irreversibly deletes associated users, patients, appointments, consultations, lab reports, and invoicing data from our servers
-- **Staff Management:** administrators can disable or delete staff accounts at any time
-- **Clinic Data Management:** clinic records remain under clinic administrative control and may be removed when deleted through available in-app administrative actions
+- Clinic administrators can disable staff access
+- Clinic administrators can delete the clinic and associated records through administrative workflows
+- Deletion actions may permanently remove related clinic data, including users, patients, appointments, consultations, lab records, and invoices
 
-### 7. Your Privacy Rights
+### 7. User Rights and Responsibilities
 
-Depending on the applicable jurisdiction, users or patients may have the right to:
+Depending on jurisdiction, users or patients may have the right to request access, correction, or deletion of personal data.
 
-- Request access to personal data
-- Request correction of inaccurate data
-- Request deletion of personal data
-
-Patients seeking to exercise these rights should contact the relevant Clinic or Doctor directly, because the Clinic is the Data Controller responsible for those medical records.
+Because the clinic controls patient records, requests concerning patient medical information should be directed to the relevant clinic or doctor first.
 
 ### 8. Changes to This Privacy Policy
 
-We may update this Privacy Policy from time to time. When changes are made, the updated version will be posted here and the Effective Date will be revised. Significant changes may also be communicated through in-app notifications.
+This Privacy Policy may be updated from time to time. When updated, the revised version and effective date will be published in the app repository or related distribution channels.
 
-### 9. Contact Us
+### 9. Contact
 
-If you have questions or concerns about this Privacy Policy or Clini Sync data practices, contact:
+If you have questions about this Privacy Policy or Clini Sync data handling, contact:
 
 - **Email:** encrustace@gmail.com
-- **Address:** Encrust Ace
+- **Organization:** Encrust Ace
 
-## Store Listing Keywords
+## Keywords
 
-Clinic management, doctor app, electronic medical records, EMR, patient management, digital prescription, appointment scheduler, medical billing, clinic software, healthcare app, medical inventory, PDF invoice, lab reports.
+Clinic management, doctor app, EMR, patient records, appointment scheduling, prescription management, lab reports, invoice generation, clinic software, medical inventory, healthcare operations, staff authorization.
